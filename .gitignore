@@ -1,0 +1,32 @@
+# Build artifacts
+/build
+/firewall-ui
+/web/dist
+
+# Dependencies
+/web/node_modules
+/vendor
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime data, logs, and local config
+*.db
+*.log
+*.rules
+*.save
+nohup.out
+/var
+/etc
+
+# Environment files
+.env
+.env.local
